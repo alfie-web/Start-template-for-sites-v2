@@ -1,0 +1,33 @@
+
+/* font-family: "TTNormsRegular"; */
+@font-face {
+    font-family: "TTNormsRegular";
+    src: url("../fonts/TTNormsRegular/TTNormsRegular.eot");
+    src: url("../fonts/TTNormsRegular/TTNormsRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TTNormsRegular/TTNormsRegular.woff") format("woff"),
+    url("../fonts/TTNormsRegular/TTNormsRegular.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "TTNormsMedium"; */
+@font-face {
+    font-family: "TTNormsMedium";
+    src: url("../fonts/TTNormsMedium/TTNormsMedium.eot");
+    src: url("../fonts/TTNormsMedium/TTNormsMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TTNormsMedium/TTNormsMedium.woff") format("woff"),
+    url("../fonts/TTNormsMedium/TTNormsMedium.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "TTNormsBold"; */
+@font-face {
+    font-family: "TTNormsBold";
+    src: url("../fonts/TTNormsBold/TTNormsBold.eot");
+    src: url("../fonts/TTNormsBold/TTNormsBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/TTNormsBold/TTNormsBold.woff") format("woff"),
+    url("../fonts/TTNormsBold/TTNormsBold.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}

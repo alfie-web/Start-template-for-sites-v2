@@ -1,0 +1,90 @@
+@import "vars"
+
+/*Default settings*/
+*
+	margin: 0
+	padding: 0
+body
+	font-family: $regular-font, sans-serif
+	background-color: $light
+	// background-color: #000
+
+.wrapper
+	overflow: hidden
+section
+	position: relative
+	padding: 100px 0
+img
+	height: auto
+	max-width: 100%
+	vertical-align: middle
+a 
+	text-decoration: none
+li
+	list-style: none
+
+.clearfix
+	*zoom: 1
+	&:after 
+		content: " "
+		display: table
+		clear: both
+	&:before
+		content: " "
+		display: table	
+
+::selection 
+	background: #D3D3D3 
+	color: $black
+
+.container
+	margin: 0 auto
+	width: 97%
+	max-width: 1170px
+	position: relative
+
+
+.section-text
+	font: 16px/30px $regular-font
+	color: $gray
+	margin-bottom: 40px
+	letter-spacing: .25px
+
+h1, .section-title__big
+	display: block
+	font: 30px $medium-font
+	color: $black
+	margin-bottom: 30px
+
+h2, .section-title__normal
+	display: block
+	font: 20px $regular-font
+	color: $black
+	margin-bottom: 20px	
+
+h3, .section-title__small
+	display: block
+	font: 16px $bold-font
+	color: $black
+	margin-bottom: 20px	
+
+
+.section-btn, .section-btn2
+	display: inline-block
+	font: 16px $regular-font
+	padding: 15px 43px
+	border-radius: 4px
+	transition: background .6s, color .6s
+	white-space: nowrap
+
+.section-btn
+	color: #fff
+	background: $green
+	margin-right: 20px
+	&:hover
+		background-color: $blue
+
+
+
+
+
